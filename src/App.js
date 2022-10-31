@@ -14,7 +14,9 @@ function App() {
     <>
       <Navbar />
       <Routes>
+        <Route path="/example-webSite-via-react/" element={<Home />} />
         <Route path="/" element={<Home />} />
+
         <Route path="/html" element={<Html />} />
         <Route path="/css" element={<Css />} />
         <Route path="/javaScript" element={<JavaScript />} />
