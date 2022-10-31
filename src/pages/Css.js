@@ -34,7 +34,7 @@ const Css = () => {
         rerum ab at? Iure consectetur debitis illum totam, quam eaque ipsum quo
         esse at nulla suscipit soluta. Incidunt labore alias dignissimos.
       </p>
-      <button className="button_1" onClick={()navigate("/")}>
+      <button className="button_1" onClick={() => navigate("/")}>
         Go Back
       </button>
     </div>
