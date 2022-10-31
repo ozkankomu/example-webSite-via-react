@@ -159,6 +159,10 @@ header a:hover {
   height: 100px;
 }
 
+button {
+  cursor: pointer;
+}
+
 /* Sidebar */
 
 aside#sidebar {
