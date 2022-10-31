@@ -5,7 +5,7 @@ const Logo = () => {
   return (
     <div className="card">
       <img src={logo} alt="" />
-      <h3>HTML5 Markup</h3>
+      <h3>JavaScript</h3>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
         voluptates voluptas similique qui ipsa sunt aliquam? Quos minima
