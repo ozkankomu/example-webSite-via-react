@@ -1,87 +1,97 @@
-<p>Clarusway<img align="right"
-  src="https://secure.meetupstatic.com/photos/event/3/1/b/9/600_488352729.jpeg"  width="15px"></p>
+<p align="center">
+<a href="https://www.linkedin.com/in/ozkankomu/" target="_blank"><img src="photo1.png" alt="screenshot" target=_blanked></a>
+</p>
 
-# Coding Challenge-003 : Clarusway Web Page with React Router
 
-## Description
+Example site
 
-Project aims to create a Clarusway Web Page with Router.
+## Table of contents
 
-## Problem Statement
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Project Skeleton ](#project-skeleton)
+  - [Links](#links)
+  - [Built with](#built-with)
+  - [Useful resources](#useful-resources)
+  - [Author](#author)
 
-- We are adding a new project to our portfolios. So you and your colleagues have started to work on the project.
+
+
+## The challenge
+In this project, I tried to make a website for clarusway using reactjs.
 
 ## Project Skeleton
 
-```
-003 - Clarusway Web Page with Router (folder)
-|
-|----readme.md         # Given to the students (Definition of the project)
+   
 SOLUTION
 ├── public
 │     └── index.html
 ├── src
-│    ├── assets.js
-│    │     └── images
 │    ├── components
-│    │     ├── Footer.js
-│    │     ├── Card.js
-│    │     └── Navbar.js
+│    │       ├── header
+│    │       │     ├── Header.js
+│    │       │     ├── Form.js
+│    │       │     └── style.js
+│    │       └── navbar
+│    │             ├── Navbar.js
+│    │             └── style.js
 │    ├── pages
-│    │     ├── Home.js
-│    │     ├── About.js
-│    │     ├── Services.js
-│    │     ├── Html.js
-│    │     ├── Css.js
-│    │     └── Logo.js
+│    │       ├── about
+│    │       │     ├── About.js
+│    │       │     └── style.js
+│    │       ├── details
+│    │       │     ├── Details.js
+│    │       │     └── style.js
+│    │       ├── login
+│    │       │     ├── Login.js
+│    │       │     └── style.js
+│    │       └── home
+│    │             ├── Home.js
+│    │             ├── RecipeCard.js
+│    │             └── style.js
 │    ├── router
-│    │     └── AppRouter.js│
+│    │       ├── AppRouter.js
+│    │       └── PrivateRouter.js
+│    ├── assets
+│    │       └── [images]
 │    ├── App.js
 │    ├── App.css
 │    ├── index.js
 │    └── index.css
 ├── package.json
 └── yarn.lock
-```
 
-## Expected Outcome
 
-![Project 003 Snapshot](clarusway-web-page-with-router.gif)
+## Screenshot
+<p align="left">
+<a href="https://ozkankomu.github.io/example-webSite-via-react/"><img src="screen.gif" alt="screenshot" target=_blanked></a>
+</p>
 
-## Objective
 
-Build a Clarusway Web Page using ReactJS and react-router.
 
-### At the end of the project, following topics are to be covered;
+## Links
+<hr>
+<b>Check The Live Website ➡️</b> <a href="https://ozkankomu.github.io/example-webSite-via-react/">Live Website</a>
+<hr>
 
-- HTML
-
+### Built with
+- Semantic HTML5 markup
 - CSS
-
-- JS
-
-- ReactJS
-
-### At the end of the project, students will be able to;
-
-- Improve coding skills within HTML & CSS & JS & ReactJS.
-
-- Use git commands (push, pull, commit, add etc.) and Github as Version Control System.
-
-## Steps to Solution
-
-- Step 1: Create React App using `yarn create react-app clarusway-web-page-with-router` or `npx create-react-app clarusway-web-page-with-router`.
-
-- Step 2: Build Clarusway Web Page using ReactJS, react-router and useHistory.
-
-- Step 3: Push your application into your own public repo on Github.
-
-- Step 4: Add project gif to your project and README.md file.
+- Mobile-first workflow
+- Browser_Router
+- React
 
 ## Notes
 
-- You can add additional functionalities and design to your app.
+- I used React-Styled-Components , 
 
-[starter folder](./starter/)
+### Useful resources
 
-**<p align="center">&#9786; Happy Coding &#9997;</p>**
+- [W3 Schoold](https://www.w3schools.com/) - This helped me for basics of website paradigm. I really liked this pattern and will use it going forward.
+- [MDN](https://developer.mozilla.org/en-US/) - This is an amazing document which helped me finally understand deep sides of web development. I'd recommend it to anyone still learning these concepts.
+
+## Author
+
+- Author - [Ozkan]
+
+<center> &#8987; Happy Coding  &#9997; </center>
